@@ -1,0 +1,30 @@
+{
+  "name": "rustam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "rustam",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.6",
+    "email-validator": "^2.0.4",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
+    "geoip-lite": "^1.4.2",
+    "jquery": "^3.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "layouts": "^3.0.2",
+    "mongodb": "^3.6.9",
+    "mongoose": "^5.12.13",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^2.0.7",
+    "password-validator": "^5.1.1",
+    "public-ip": "^4.0.4"
+  }
+}
